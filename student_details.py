@@ -31,16 +31,15 @@ def create_pdf(row, pdf_file_path):
 
     c.save()
 
-# Load your DataFrame from an Excel file
-# Replace 'your_file.xlsx' with the actual file path
-excel_file_path = r'C:\Users\Hithaishi Raj\Downloads\Student Dummy Information.xlsx'  # Raw string to handle backslashes
+
+excel_file_path = r'C:\Users\Hithaishi Raj\Downloads\Student Dummy Information.xlsx'  
 df = pd.read_excel(excel_file_path)
 
-# Create output directory if it doesn't exist
+
 output_dir = 'student_pdfs'
 os.makedirs(output_dir, exist_ok=True)
 
-# Create a separate PDF for each student
+
 for index, row in df.iterrows():
     pdf_file_path = os.path.join(output_dir, f"{row['Name']}_output.pdf")
     create_pdf(row, pdf_file_path)
