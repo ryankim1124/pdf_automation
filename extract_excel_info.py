@@ -1,4 +1,5 @@
 import pandas as pd
+import os
 def read_excel_file(file_path):
     """
     Reads an Excel file and extracts student information.
@@ -66,5 +67,10 @@ def main(file_path):
 
 if __name__ == "__main__":
     
-    excel_file_path = r"C:\Users\manuk\OneDrive\Desktop\Student Dummy Information.xlsx"
+    excel_file_path = r"C:\Users\manuk\OneDrive\Desktop\callus_project\pdf_automation\data\Student Dummy Information.xlsx"
     main(excel_file_path)
+   
+if os.path.isfile(excel_file_path):
+    print(f"File found: {excel_file_path}")
+else:
+    print(f"File not found: {excel_file_path}")
