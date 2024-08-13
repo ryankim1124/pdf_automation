@@ -1,5 +1,6 @@
 import pandas as pd
 import os
+
 def read_excel_file(file_path):
     """
     Reads an Excel file and extracts student information.
@@ -13,6 +14,7 @@ def read_excel_file(file_path):
     except Exception as e:
         print(f"Error reading Excel file: {e}")
         return None
+
 def process_student_info(df):
     """
     Processes student information from the DataFrame.
@@ -26,6 +28,7 @@ def process_student_info(df):
     except Exception as e:
         print(f"Error processing student information: {e}")
         return None
+
 def display_student_info(student_info):
     """
     Displays student information.
@@ -49,28 +52,26 @@ def display_student_info(student_info):
         print(f"Date of Issuance: {student.get('Date of Issuance')}")
         print(f"Serial Number: {student.get('Serial Number')}")
         print(f"QR URL: {student.get('QR URL')}")
-        
         print("")
+
 def main(file_path):
     """
     Main function to execute the Excel information extraction.
 
     :param file_path: Path to the Excel file.
     """
-    df = read_excel_file(file_path)
-    if df is not None:
-        
-        student_info = process_student_info(df)
-        if student_info is not None:
-            
-            display_student_info(student_info)
+    if os.path.isfile(file_path):
+        df = read_excel_file(file_path)
+        if df is not None:
+            student_info = process_student_info(df)
+            if student_info is not None:
+                display_student_info(student_info)
+    else:
+        print(f"File not found: {file_path}")
 
 if __name__ == "__main__":
+    project_dir = os.path.dirname(__file__)
+    data_folder = os.path.join(project_dir, "data")
+    excel_file_path = os.path.join(data_folder, "Student Dummy Information.xlsx")
     
-    excel_file_path = r"C:\Users\manuk\OneDrive\Desktop\callus_project\pdf_automation\data\Student Dummy Information.xlsx"
     main(excel_file_path)
-   
-if os.path.isfile(excel_file_path):
-    print(f"File found: {excel_file_path}")
-else:
-    print(f"File not found: {excel_file_path}")
