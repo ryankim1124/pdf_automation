@@ -31,16 +31,17 @@ def create_pdf(row, pdf_file_path):
 
     c.save()
 
+# Using a relative path instead of an absolute path
+excel_file_path = os.path.join('data', 'Student Dummy Information.xlsx')
+print(f"Excel file path: {excel_file_path}")  # Verify the path
 
-excel_file_path = r'C:\Users\Hithaishi Raj\Downloads\Student Dummy Information.xlsx'  
-df = pd.read_excel(excel_file_path)
-
+# Using a more descriptive variable name
+student_data = pd.read_excel(excel_file_path)
 
 output_dir = 'student_pdfs'
 os.makedirs(output_dir, exist_ok=True)
 
-
-for index, row in df.iterrows():
+for index, row in student_data.iterrows():
     pdf_file_path = os.path.join(output_dir, f"{row['Name']}_output.pdf")
     create_pdf(row, pdf_file_path)
     print(f"Created PDF for {row['Name']}: {pdf_file_path}")

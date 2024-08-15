@@ -1,0 +1,17 @@
+{
+  "name": "excel_pdf",
+  "version": "1.0.0",
+  "description": "PDF automation for letter of reference and certificate of internship based on the excel data.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "pdfkit": "^0.15.0"
+  }
+}
