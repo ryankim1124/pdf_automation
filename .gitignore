@@ -65,7 +65,7 @@ venv.bak/
 *.orig
 *.rej
 *~
-
+qr_details.py
 # Test coverage
 .coverage
 .tox/
