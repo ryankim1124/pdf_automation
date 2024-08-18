@@ -76,6 +76,7 @@ coverage.xml
 
 # MyPy
 .mypy_cache/
+reference_letter
 
 # Pylint
 .pylint.d/
