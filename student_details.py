@@ -31,11 +31,11 @@ def create_pdf(row, pdf_file_path):
 
     c.save()
 
-# Using a relative path instead of an absolute path
-excel_file_path = os.path.join('data', 'Student Dummy Information.xlsx')
-print(f"Excel file path: {excel_file_path}")  # Verify the path
 
-# Using a more descriptive variable name
+excel_file_path = os.path.join('data', 'Student Dummy Information.xlsx')
+print(f"Excel file path: {excel_file_path}")  
+
+
 student_data = pd.read_excel(excel_file_path)
 
 output_dir = 'student_pdfs'
