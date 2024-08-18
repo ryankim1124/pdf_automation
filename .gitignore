@@ -65,19 +65,19 @@ venv.bak/
 *.orig
 *.rej
 *~
-qr_details.py
-information_pdf
-integration.py
-main.py
-modify
-qr_actual.py
+# Ignore specific files
 qr_details.py
 qr_insert.py
-qrs_canner.py
+qr_sScanner.py
 reference_letter
 student_qr_code.png
 student_qr_code_with_url.png
 url.py
+information_pdf
+integration.py
+main.py
+modify
+
 # Test coverage
 .coverage
 .tox/
