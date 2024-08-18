@@ -66,6 +66,18 @@ venv.bak/
 *.rej
 *~
 qr_details.py
+information_pdf
+integration.py
+main.py
+modify
+qr_actual.py
+qr_details.py
+qr_insert.py
+qrs_canner.py
+reference_letter
+student_qr_code.png
+student_qr_code_with_url.png
+url.py
 # Test coverage
 .coverage
 .tox/
