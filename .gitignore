@@ -5,7 +5,8 @@ __pycache__/
 
 # C extensions
 *.so
-
+student_pdfs/*
+student_qr_code.png
 # Distribution / packaging
 .Python
 build/
