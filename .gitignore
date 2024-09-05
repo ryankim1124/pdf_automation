@@ -66,6 +66,14 @@ venv.bak/
 *.orig
 *.rej
 *~
+extract_excel_info.py
+qr_details.py
+qr_insert
+reference_letter
+reference_letter.css
+student_details.py
+temp_reference.html
+url.py
 
 # Test coverage
 .coverage
