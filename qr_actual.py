@@ -2,7 +2,7 @@ import qrcode
 
 def generate_qr_code(data, base_url, filename):
     # Concatenate the base URL with the student-specific data
-    full_url = f"{base_url}?name={data['name']}&university={data['university']}&roll_number={data['roll_number']}&institute={data['institute']}&class={data['class']}&company_name={data['company_name']}&program_start_date={data['program_start_date']}&program_end_date={data['program_end_date']}&company_address1={data['company_address1']}&company_city={data['company_city']}&company_state={data['company_state']}&company_country={data['company_country']}&date_of_issuance={data['date_of_issuance']}&serial_number={data['serial_number']}"
+    full_url = f"{base_url}"
 
     # Create the QR code
     qr = qrcode.QRCode(
@@ -15,7 +15,7 @@ def generate_qr_code(data, base_url, filename):
     qr.make(fit=True)
 
     # Generate the image
-    img = qr.make_image(fill_color="black", back_color="transparent")
+    img = qr.make_image(fill_color="black", back_color="white")
     img.save(filename)
 
 # Example usage
