@@ -69,9 +69,8 @@ venv.bak/
 # Ignore specific files
 qr_details.py
 qr_insert.py
-qr_sScanner.py
+qr_Scanner.py
 reference_letter
-student_qr_code.png
 student_qr_code_with_url.png
 url.py
 information_pdf
