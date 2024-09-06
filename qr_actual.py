@@ -38,3 +38,4 @@ student_info = {
 
 base_url = "https://sprint.calluscompany.com/certificate/clyxchj430001dfl4dijb9v9g"
 generate_qr_code(student_info, base_url, "student_qr_code.png")
+
