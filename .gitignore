@@ -66,6 +66,17 @@ venv.bak/
 *.orig
 *.rej
 *~
+# Ignore specific files
+qr_details.py
+qr_insert.py
+qr_Scanner.py
+reference_letter
+student_qr_code_with_url.png
+url.py
+information_pdf
+integration.py
+main_not_in_use.py
+modify
 
 # Test coverage
 .coverage
@@ -77,6 +88,7 @@ coverage.xml
 
 # MyPy
 .mypy_cache/
+reference_letter
 
 # Pylint
 .pylint.d/
