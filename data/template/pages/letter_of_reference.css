@@ -1,0 +1,395 @@
+
+.Rectangle-4601 {
+  width: 1000px;
+  height: 320px;
+  margin: 0 0 40px;
+  padding: 26px 32px 48px 60px;
+  border: solid 4px #2e763b;
+  background-color: #2e763b;
+}
+.bg {
+  width: 1116px;
+  height: 1468px;
+  padding: 0 0 40px;
+  border: solid 4px #2e763b;
+  background-color: #fff5ea;
+}
+.letter-of-reference .p-24-ayzhj-iimstc-callus-2425 {
+  margin-bottom: 42px;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Red Hat Display';
+  font-weight: 500;
+  font-size: 20px;
+  color: #FFFFFF;
+}
+.letter-of-reference .container-3 {
+  margin: 0 0 22px 6px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 1017.6px;
+  box-sizing: border-box;
+}
+.letter-of-reference .letter-of-reference-1 {
+  margin: 0 4px 32px 4px;
+  display: inline-block;
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: 'Red Hat Display';
+  font-weight: 900;
+  font-size: 36px;
+  letter-spacing: 1.4px;
+  line-height: 1.056;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.letter-of-reference .rectangle-4602 {
+  background: rgba(255, 0, 0, 0.2);
+  align-self: flex-start;
+  width: 571px;
+  height: 72px;
+}
+.letter-of-reference .container {
+  border: 4px solid #2E763B;
+  background: #2E763B;
+  position: relative;
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  padding: 40px 32.4px 48px 55px;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.letter-of-reference .this-is-to-certify-that {
+  position: relative;
+  margin: 0 60px 16px 60px;
+  display: inline-block;
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: 'Red Hat Display';
+  font-weight: 700;
+  font-size: 20px;
+  letter-spacing: -0.2px;
+  line-height: 1;
+  color: #1D1D1F;
+}
+.letter-of-reference .ryan-kim {
+  position: relative;
+  margin: 0 60px 20px 60px;
+  display: block;
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: lora;
+  font-style: italic;
+  font-weight: 500;
+  font-size: 68px;
+  letter-spacing: -0.7px;
+  line-height: 1.147;
+  color: #720E33;
+}
+.letter-of-reference .university {
+  margin: 0 19.8px 16px 0;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Red Hat Display';
+  font-weight: 700;
+  font-size: 20px;
+  letter-spacing: -0.2px;
+  line-height: 1.2;
+  color: #1D1D1F;
+}
+.letter-of-reference .roll-number {
+  margin-bottom: 16px;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Red Hat Display';
+  font-weight: 700;
+  font-size: 20px;
+  letter-spacing: -0.2px;
+  line-height: 1.2;
+  color: #1D1D1F;
+}
+.letter-of-reference .institute {
+  margin-bottom: 16px;
+  display: inline-block;
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: 'Red Hat Display';
+  font-weight: 700;
+  font-size: 20px;
+  letter-spacing: -0.2px;
+  line-height: 1.2;
+  color: #1D1D1F;
+}
+.letter-of-reference .class {
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: 'Red Hat Display';
+  font-weight: 700;
+  font-size: 20px;
+  letter-spacing: -0.2px;
+  line-height: 1.2;
+  color: #1D1D1F;
+}
+.letter-of-reference .frame-402111 {
+  margin-right: 50px;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+.letter-of-reference .sample-university-in-bengaluru-karnataka {
+  margin-bottom: 16px;
+  display: inline-block;
+  align-self: stretch;
+  overflow-wrap: break-word;
+  font-family: 'Lora';
+  font-family: 'Red Hat Display';
+  font-weight: 400;
+  font-size: 18px;
+  letter-spacing: -0.2px;
+  line-height: 1.333;
+  color: #1D1D1F;
+}
+.letter-of-reference .abc-123-xyz-987 {
+  margin-bottom: 16px;
+  display: inline-block;
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: 'Red Hat Display';
+  font-weight: 400;
+  font-size: 18px;
+  letter-spacing: -0.2px;
+  line-height: 1.333;
+  color: #1D1D1F;
+}
+.letter-of-reference .sample-university-main-campus-in-bengaluru-karnataka {
+  margin-bottom: 16px;
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Red Hat Display';
+  font-weight: 400;
+  font-size: 18px;
+  font-style: normal;
+  letter-spacing: -0.2px;
+  line-height: 1.333;
+  color: #1D1D1F;
+}
+.letter-of-reference .th-semester {
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: 'Red Hat Display';
+  font-weight: 400;
+  font-size: 18px;
+  letter-spacing: -0.2px;
+  line-height: 1.333;
+  color: #1D1D1F;
+}
+.letter-of-reference .frame-402112 {
+  margin-right: 0px;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+.letter-of-reference .container-2 {
+  position: relative;
+  margin: 0 60px 24px 60px;
+  display: flex;
+  flex-direction: row;
+  align-self: flex-start;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.letter-of-reference .has-successfully-completed-the-international-internship-program-sprint-program-at {
+  position: relative;
+  margin: 0 60px 16px 60px;
+  display: inline-block;
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: 'Red Hat Display';
+  font-weight: 400;
+  font-size: 18px;
+  letter-spacing: -0.4px;
+  line-height: 1.444;
+  color: #1D1D1F;
+}
+.letter-of-reference .good-company-in-the-united-states {
+  position: relative;
+  margin: 0 60px 4px 60px;
+  display: inline-block;
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: 'Red Hat Display';
+  font-weight: 700;
+  font-size: 24px;
+  letter-spacing: -0.5px;
+  line-height: 1.25;
+  color: #1D1D1F;
+}
+.letter-of-reference .from-april-22024-to-august-232024 {
+  position: relative;
+  margin: 0 60px 16px 60px;
+  display: block;
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: 'Red Hat Display';
+  font-weight: 400;
+  font-size: 18px;
+  letter-spacing: -0.4px;
+  line-height: 1.444;
+  color: #1D1D1F;
+}
+.letter-of-reference .during-this-period-ryan-kim-demonstrated-exceptional-dedication-professionalism-and-competence-in-fulfilling-the-assigned-tasks-and-responsibilities {
+  position: relative;
+  margin: 0 60px 16px 60px;
+  display: inline-block;
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: 'Red Hat Display';
+  font-weight: 400;
+  font-size: 18px;
+  letter-spacing: -0.4px;
+  line-height: 1.444;
+  color: #1D1D1F;
+}
+.letter-of-reference .we-highly-appreciate-the-efforts-of-ryan-kim-and-hereby-present-this-letter-of-reference {
+  position: relative;
+  margin: 0 60px 24px 60px;
+  display: inline-block;
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: 'Red Hat Display';
+  font-weight: 400;
+  font-size: 18px;
+  letter-spacing: -0.4px;
+  line-height: 1.444;
+  color: #1D1D1F;
+}
+.letter-of-reference .July-25-2024 {
+  width: 992px;
+  height: 30px;
+  margin: 24px 62px 40px;
+  display: block;
+  object-fit: contain;
+  font-family: Lora;
+  font-size: 20px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: -0.4px;
+  text-align: center;
+  color: #090909;
+}
+.letter-of-reference .rectangle-4604 {
+  background: rgba(255, 0, 0, 0.2);
+  margin-bottom: 24px;
+  width: 581px;
+  height: 132px;
+}
+.letter-of-reference .juno-yu-co-founder-and-cto-good-company {
+  margin-bottom: 4px;
+  display: inline-block;
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: 'Red Hat Display';
+  font-weight: 700;
+  font-size: 18px;
+  letter-spacing: -0.4px;
+  line-height: 1.333;
+  color: #000000;
+}
+.letter-of-reference .harvard-innovation-labs-125-western-ave-boston-ma-usa {
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: 'Red Hat Display';
+  font-weight: 400;
+  font-size: 18px;
+  letter-spacing: -0.4px;
+  line-height: 1.333;
+  color: #1D1D1F;
+}
+.letter-of-reference .container-4 {
+  margin-right: 231px;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+.letter-of-reference .rectangle-4603 {
+  background: rgba(255, 0, 0, 0.2);
+  margin-top: 100px;
+  width: 180px;
+  height: 180px;
+}
+.letter-of-reference .container-1 {
+  position: relative;
+  margin: 0 64px 40px 60px;
+  display: flex;
+  flex-direction: row;
+  width: fit-content;
+  box-sizing: border-box;
+}
+.letter-of-reference .the-below-institutions-councils-and-organisations-hereby-approve-that-the-internship-has-been-conducted-truthfully-and-meaningfully-according-to-the-internship-guidelines-announced-by-the-all-india-council-for-technical-education-and-the-individual-holding-this-certificate-is-eligible-to-receive-academic-credits-from-hisher-academic-institution {
+  position: relative;
+  margin: 40px 78px 16px;
+  display: inline-block;
+  align-self: center;
+  text-align: center;
+  overflow-wrap: break-word;
+  font-family: 'Red Hat Display';
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: -0.1px;
+  line-height: 1.429;
+  color: #656565;
+}
+img.sponser {
+  background: url('../assets/images/sponser@2x.png')50% / cover no-repeat;
+  width: 670.7px;
+  height: 64px;
+  margin: 16px 222.3px 0 223px;
+  object-fit: contain;
+}
+.letter-of-reference .rectangle-3 {
+  margin: 6.2px 39.7px 9.7px 0;
+  width: 154.3px;
+  height: 48.1px;
+}
+.letter-of-reference .rectangle {
+  margin: 10.3px 59.4px 12.8px 0;
+  width: 74.9px;
+  height: 40.9px;
+}
+.letter-of-reference .rectangle-2 {
+  margin-right: 48.5px;
+  width: 65.1px;
+  height: 64px;
+}
+.letter-of-reference .rectangle-1 {
+  margin: 0.9px 0 0.3px 0;
+  width: 75.9px;
+  height: 62.7px;
+}
+
+.letter-of-reference .rectangle-1 {
+  margin: 0.9px 0 0.3px 0;
+  width: 75.9px;
+  height: 62.7px;
+}
+.letter-of-reference .sponser {
+  position: relative 50% / cover no-repeat;
+  margin-left: 0.7px;
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+  width: 670.7px;
+  box-sizing: border-box;
+}
+.letter-of-reference {
+  background: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  padding: 40px 40px 80px 40px;
+  width: 1196px;
+  box-sizing: border-box;
+}
