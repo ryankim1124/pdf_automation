@@ -91,7 +91,7 @@ reference_letter
 # Pylint
 .pylint.d/
 
-#Ignore
+#Ignore specific files
 app.py
 student_details.py
 excel_extract_info.py
