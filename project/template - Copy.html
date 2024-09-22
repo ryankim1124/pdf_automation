@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Certificate of Internship</title>
+  <style>
+    /* Your CSS styles here */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    .certificate-container {
+      /* Styles for the main container */
+      border: 1px solid #ccc;
+      padding: 20px;
+    }
+
+    .certificate-header {
+      /* Styles for the header */
+      text-align: center;
+      font-size: 24px;
+      font-weight: bold;
+    }
+
+    .certificate-body {
+      /* Styles for the body */
+      margin-top: 20px;
+    }
+
+    /* ... other styles ... */
+  </style>
+</head>
+<body>
+  <div class="certificate-container">
+    <div class="certificate-header">
+      <h2>Certificate of Internship</h2>
+    </div>
+    <div class="certificate-body">
+      <p>This is to certify that</p>
+      <ul>
+        <li>{{ student_university }}</li>
+        <li>{{ student_roll_number }}</li>
+        <li>{{ student_institute }}</li>
+        <li>{{ student_class }}</li>
+        <li>{{ sample_university }} in Bengaluru, Karnataka</li>
+        <li>ABC123XYZ987</li>
+        <li>{{ sample_university }} Main Campus in Bengaluru, Karnataka</li>
+        <li>{{ student_semester }} Semester</li>
+      </ul>
+      <p>has successfully completed the international internship program (SPRINT PROGRAM) at</p>
+      <p>{{ student_name }}</p>
+      <p>from {{ program_start_date }} to {{ program_end_date }}.</p>
+      <p>Stochastic in the United States</p>
+      <p>Letter of Reference</p>
+    </div>
+    <div class="qr-code">
+      <img src="student_qr_code.png" alt="QR Code">
+    </div>
+  </div>
+</body>
+</html>

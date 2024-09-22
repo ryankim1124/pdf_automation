@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Certificate of Internship</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="certificate-container">
+    <div class="certificate-header">
+      <h1 class="certificate-title">Certificate of Internship</h1>
+    </div>
+    <div class="certificate-body">
+      <p>This is to certify that</p>
+      <ul class="certificate-details">
+        <li><strong>{{ student_university }}</strong></li>
+        <li><strong>{{ student_roll_number }}</strong></li>
+        <li><strong>{{ student_institute }}</strong></li>
+        <li><strong>{{ student_class }}</strong></li>
+        <li><strong>{{ sample_university }}</strong> in Bengaluru, Karnataka</li>
+        <li><strong>ABC123XYZ987</strong></li>
+        <li><strong>{{ sample_university }}</strong> Main Campus in Bengaluru, Karnataka</li>
+        <li><strong>{{ student_semester }}</strong> Semester</li>
+      </ul>
+      <p>has successfully completed the international internship program (SPRINT PROGRAM) at</p>
+      <h2 class="student-name">{{ student_name }}</h2>
+      <p>from {{ program_start_date }} to {{ program_end_date }}.</p>
+      <p>Stochastic in the United States</p>
+      <h3 class="letter-of-reference">Letter of Reference</h3>
+    </div>
+    <div class="qr-code">
+      <img src="student_qr_code.png" alt="QR Code">
+    </div>
+  </div>
+</body>
+</html>
