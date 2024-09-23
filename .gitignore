@@ -90,3 +90,14 @@ reference_letter
 
 # Pylint
 .pylint.d/
+
+#Ignore specific files
+app.py
+student_details.py
+excel_extract_info.py
+qr_generation.py
+qr_temp.html
+template.html
+student_qr_code.png
+certificate_generation.css
+certificate_generation.html
