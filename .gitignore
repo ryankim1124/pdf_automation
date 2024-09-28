@@ -70,10 +70,12 @@ qr_details.py
 qr_insert.py
 qr_Scanner.py
 reference_letter
+feature/generating_qr_code
+student_qr_code_with_url.png
 url.py
-information_pdf
+information_pdf.py
 integration.py
-main.py
+main_not_in_use.py
 modify
 
 # Test coverage
