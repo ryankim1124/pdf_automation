@@ -6,14 +6,14 @@ import streamlit as st
 import zipfile
 import io
 
-# Function to create a PDF from student data
+
 def create_pdf(row, output_dir):
     pdf_file_path = os.path.join(output_dir, f"{row.get('Name', 'student')}_output.pdf")
     c = canvas.Canvas(pdf_file_path, pagesize=letter)
     width, height = letter
     y = height - 50
 
-    # Add content to the PDF
+   
     c.drawString(100, y, f"Name: {row.get('Name', 'N/A')}")
     y -= 20
     c.drawString(100, y, f"University: {row.get('University', 'N/A')}")
@@ -35,9 +35,8 @@ def create_pdf(row, output_dir):
     c.drawString(100, y, f"QR URL: {row.get('QR URL', 'N/A')}")
 
     c.save()
-    return pdf_file_path  # Return the path to the generated PDF
+    return pdf_file_path  
 
-# Function to create a zip file of all PDFs
 def create_zip(output_dir):
     zip_buffer = io.BytesIO()
     with zipfile.ZipFile(zip_buffer, 'w') as z:
@@ -47,27 +46,26 @@ def create_zip(output_dir):
     zip_buffer.seek(0)
     return zip_buffer
 
-# Streamlit UI
+
 st.title("Certificates")
 uploaded_file = st.file_uploader("Choose an Excel file", type=["xlsx", "xls"])
 
 if uploaded_file is not None:
-    # Read the uploaded Excel file
+    
     student_data = pd.read_excel(uploaded_file)
     
     output_dir = 'student_pdfs'
-    os.makedirs(output_dir, exist_ok=True)  # Create directory if it doesn't exist
-
-    # Generate PDFs for each student
+    os.makedirs(output_dir, exist_ok=True)  
+    
     for index, row in student_data.iterrows():
-        create_pdf(row, output_dir)  # Create PDF for the student
+        create_pdf(row, output_dir)  
 
     st.success("Certificates generated successfully!")
 
-    # Create a zip file of all generated PDFs
+    
     zip_file = create_zip(output_dir)
     
-    # Provide a download button for the zip file
+   
     st.download_button(
         label="Download All Certificates as ZIP",
         data=zip_file,
