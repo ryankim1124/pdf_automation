@@ -376,4 +376,12 @@
   width: 1548px;
   box-sizing: border-box;
 }
+.frame-402113 .qr-code {
+  position: absolute; /* Positioning the QR code */
+  left: 100px; /* Adjust this value to position it correctly */
+  bottom: 100px; /* Adjust this value to position it correctly */
+  width: 100px; /* Adjust the width of the QR code as needed */
+  height: auto; /* Keep the aspect ratio */
+  border: 2px solid #1D1D1F; /* Optional: Add a border around the QR code */
+}
 
