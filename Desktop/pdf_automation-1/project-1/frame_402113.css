@@ -304,7 +304,7 @@
   color: #000000;
 }
 .frame-402113 .rectangle-4603 {
-  background: rgba(255, 0, 0, 0.2);
+  background: url('../assets/images/student_qr_code.png') 50% / cover no-repeat;
   position: absolute;
   right: 104px;
   bottom: 180px;
@@ -377,11 +377,10 @@
   box-sizing: border-box;
 }
 .frame-402113 .qr-code {
-  position: absolute; /* Positioning the QR code */
-  left: 100px; /* Adjust this value to position it correctly */
-  bottom: 100px; /* Adjust this value to position it correctly */
-  width: 100px; /* Adjust the width of the QR code as needed */
-  height: auto; /* Keep the aspect ratio */
-  border: 2px solid #1D1D1F; /* Optional: Add a border around the QR code */
+  position: absolute;
+  right: 100px; 
+  top: 800px; 
+  width: 220px;
+  height: 220px;
+  border: 2px solid #1D1D1F;
 }
-
