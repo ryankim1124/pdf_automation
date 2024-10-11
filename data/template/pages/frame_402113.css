@@ -377,3 +377,11 @@
   box-sizing: border-box;
 }
 
+.student-qr-code {
+  width: 224px;  
+  height: 224px;  
+  position: absolute; 
+  top: 100px; 
+  left: 100px; 
+  background: url('../assets/images/student_qr_code.png') 50% / contain no-repeat; 
+}
