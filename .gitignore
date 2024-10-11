@@ -5,8 +5,6 @@ __pycache__/
 
 # C extensions
 *.so
-student_pdfs/*
-student_qr_code.png
 # Distribution / packaging
 .Python
 build/
@@ -66,16 +64,8 @@ venv.bak/
 *.orig
 *.rej
 *~
-# Ignore specific files
-qr_details.py
-qr_insert.py
-qr_Scanner.py
-reference_letter
-student_qr_code_with_url.png
-url.py
-information_pdf.py
-main_not_in_use.py
-modify
+
+
 
 # Test coverage
 .coverage
