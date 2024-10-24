@@ -78,8 +78,9 @@ coverage.xml
 # MyPy
 .mypy_cache/
 reference_letter
-student_qr_code_with_airplane.png
 qr_with_airplane.py
+student_qr_code_with_airplane.png
+
 
 # Pylint
 .pylint.d/
