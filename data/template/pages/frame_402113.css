@@ -304,7 +304,7 @@
   color: #000000;
 }
 .frame-402113 .rectangle-4603 {
-  background: rgba(255, 0, 0, 0.2);
+  background: url('../assets/images/student_qr_code_modified.png') 50% / contain no-repeat;
   position: absolute;
   right: 104px;
   bottom: 180px;
@@ -377,11 +377,3 @@
   box-sizing: border-box;
 }
 
-.student-qr-code {
-  width: 224px;  
-  height: 224px;  
-  position: absolute; 
-  top: 100px; 
-  left: 100px; 
-  background: url('../assets/images/student_qr_code.png') 50% / contain no-repeat; 
-}

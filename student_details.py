@@ -72,3 +72,4 @@ if uploaded_file is not None:
         file_name="certificates.zip",
         mime="application/zip"
     )
+

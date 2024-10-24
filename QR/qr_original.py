@@ -15,7 +15,7 @@ def generate_qr_code(data, base_url, filename):
     qr.make(fit=True)
 
     # Generate the image
-    img = qr.make_image(fill_color="black", back_color="white")
+    img = qr.make_image(fill_color="black", back_color=(255, 218, 185))  # RGB for a light peach color
     img.save(filename)
 
 # Example usage
@@ -38,4 +38,4 @@ student_info = {
 }
 
 base_url = "https://sprint.calluscompany.com/certificate/clyxchj430001dfl4dijb9v9g"
-generate_qr_code(student_info, base_url, "student_qr_code.png")
+generate_qr_code(student_info, base_url, "student_qr_code_updated.png")
