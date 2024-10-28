@@ -31,21 +31,17 @@ def generate_certificates_and_reference_letters(uploaded_file, output_dir, templ
         }
 
         try:
-            # Paths to the CSS files
-            certificate_css = os.path.join(template_dir, "frame_402113.css")
-            reference_letter_css = os.path.join(template_dir, "letter_of_reference.css")
-
             # Generate Certificate PDF using frame_402113.html template
             certificate_template = env.get_template("frame_402113.html")
             rendered_html = certificate_template.render(student_info=student_info)
             certificate_output_file = os.path.join(output_dir, f"{student_info['Name']}_certificate.pdf")
-            pdfkit.from_string(rendered_html, certificate_output_file, options={"quiet": True}, css=certificate_css)
+            pdfkit.from_string(rendered_html, certificate_output_file, options={"quiet": True})
 
             # Generate Reference Letter PDF using letter_of_reference.html template
             reference_letter_template = env.get_template("letter_of_reference.html")
             rendered_html = reference_letter_template.render(student_info=student_info)
             reference_letter_output_file = os.path.join(output_dir, f"{student_info['Name']}_reference_letter.pdf")
-            pdfkit.from_string(rendered_html, reference_letter_output_file, options={"quiet": True}, css=reference_letter_css)
+            pdfkit.from_string(rendered_html, reference_letter_output_file, options={"quiet": True})
 
         except Exception as e:
             print(f"Error generating files for {student_info['Name']}: {e}")
@@ -75,16 +71,16 @@ def main():
 
     if uploaded_file is not None:
         # User-friendly prompt to guide path selection
-        template_dir = st.text_input("Template Directory Path:", value="data/template/pages/", key="template_dir")
-        output_dir = st.text_input("Output Directory Path:", value="desktop/internship/", key="output_dir")
+        template_dir = st.text_input("data/template/pages:", key="template_dir")
+        output_dir = st.text_input("desktop/internship:", key="output_dir")
 
         # Basic input validation (consider expanding based on your needs)
         if not template_dir:
-            st.error("Please provide the template directory path.")
+            st.error("data/template/pages.")
             return
         if not output_dir:
-            st.error("Please provide the output directory path.")
-            return
+            st.error("desktop/internship.")
+            returns
 
         # Generate the ZIP file
         zip_file = generate_certificates_and_reference_letters(uploaded_file, output_dir, template_dir)
