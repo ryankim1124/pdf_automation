@@ -316,7 +316,7 @@
   box-sizing: border-box;
 }
 .letter-of-reference .rectangle-4603 {
-  background: rgba(255, 0, 0, 0.2);
+  background: url('../assets/images/student_qr_code_modified.png') 50% / contain no-repeat;
   margin-top: 100px;
   width: 180px;
   height: 180px;
